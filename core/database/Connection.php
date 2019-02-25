@@ -20,4 +20,8 @@ Class Connection {
         }
     }
 
+    public function foo() {
+        
+    }
+
 }
