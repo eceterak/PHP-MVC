@@ -24,4 +24,8 @@ Class Connection {
         
     }
 
+    public function bar() {
+        
+    }
+
 }
