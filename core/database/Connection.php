@@ -4,6 +4,7 @@ namespace App\Core\Database;
 
 use PDO;
 use PDOException;
+use App\Core\Database\QueryBuilder;
 
 Class Connection {
 
@@ -20,8 +21,8 @@ Class Connection {
         }
     }
 
-    public function foo() {
-        
+    public function foo(QueryBuilder $queryBuilder) {
+        $queryBuilder->selectAll('table');
     }
 
     public function bar() {

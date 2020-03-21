@@ -11,6 +11,8 @@ return array(
     'App\\Core\\Database\\QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
     'App\\Core\\Request' => $baseDir . '/core/Request.php',
     'App\\Core\\Router' => $baseDir . '/core/Router.php',
+    'App\\QueryFilter' => $baseDir . '/app/QueryFilter.php',
+    'App\\RoomFilter' => $baseDir . '/app/RoomFilter.php',
     'ComposerAutoloaderInit5dc390e94e21639b18401c6238b1472f' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'PagesController' => $baseDir . '/app/controllers/PagesController.php',
