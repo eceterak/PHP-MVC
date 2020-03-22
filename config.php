@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'app_name' => 'PHP-MVC',
     'database' => [
         'name' => '',
         'username' => 'root',

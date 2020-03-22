@@ -1,11 +1,22 @@
 <?php
 
-class PagesController {
+use App\Core\Controller;
 
-    public function index() {
+class PagesController extends Controller {
 
-        echo 'Hello There!';
+    public function index() 
+    {
+        return $this->view('pages/index', [
+            'test' => 123
+        ]);
+    }
 
+    public function contact() 
+    {
+        return $this->json([
+            'test' => 123,
+            'r' => 234
+        ]);
     }
 
 }

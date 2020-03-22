@@ -7,13 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Core\\App' => $baseDir . '/core/App.php',
+    'App\\Core\\Controller' => $baseDir . '/core/Controller.php',
     'App\\Core\\Database\\Connection' => $baseDir . '/core/database/Connection.php',
     'App\\Core\\Database\\QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
     'App\\Core\\Request' => $baseDir . '/core/Request.php',
     'App\\Core\\Router' => $baseDir . '/core/Router.php',
-    'App\\QueryFilter' => $baseDir . '/app/QueryFilter.php',
-    'App\\RoomFilter' => $baseDir . '/app/RoomFilter.php',
+    'App\\Core\\View' => $baseDir . '/core/View.php',
     'ComposerAutoloaderInit5dc390e94e21639b18401c6238b1472f' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
+    'Composer\\Autoload\\ComposerStaticInit5dc390e94e21639b18401c6238b1472f' => $vendorDir . '/composer/autoload_static.php',
     'PagesController' => $baseDir . '/app/controllers/PagesController.php',
 );
